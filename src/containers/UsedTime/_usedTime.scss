@@ -1,0 +1,50 @@
+.usedTime {
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+
+  padding-top: 60px;
+
+  &-container {
+    text-align: center;
+    width: 97%;
+  }
+}
+
+table {
+  table-layout: fixed;
+  cursor: pointer;
+
+  tbody {
+    td {
+      vertical-align: middle;
+    }
+
+    tr {
+      height: 80px;
+    }
+  }
+}
+
+tfoot {
+  border-top: none !important;
+
+  tr {
+    border: none !important;
+
+    td {
+      border: none !important;
+    }
+  }
+}
+
+nav {
+  .pagination {
+    justify-content: flex-end;
+  }
+
+  li a {
+    text-decoration: none;
+    color: black;
+  }
+}

@@ -1,0 +1,4 @@
+export const POST_LOGIN_DATA = 'POST_LOGIN_DATA';
+export const POST_LOGIN_SUCCESS = 'POST_LOGIN_SUCCESS';
+export const POST_LOGIN_ERROR = 'POST_LOGIN_ERROR';
+export const LOGOUT = 'LOGOUT';

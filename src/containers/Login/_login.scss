@@ -1,0 +1,31 @@
+.login-container{
+    width: 100vw;
+    height: 100vh;
+    background: url('https://cdn.bongdaplus.vn/Assets/Media/2020/07/08/66/yas.jpg');
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-wrapper{
+        width: 40%;
+        padding: 20px;
+        background-color: white;
+        .title{
+            font-size: 24px;
+            font-weight: 300;
+        }
+        form{
+            display: grid;
+            flex-wrap:wrap;
+        }
+        input{
+            flex: 1;
+            min-width:40%;
+            margin: 20px 10px 10px 0px;
+            padding: 10px;
+        }
+        .error-input {
+            border-color: red;
+          }
+    }
+}
